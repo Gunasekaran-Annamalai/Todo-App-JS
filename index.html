@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="icon">
+      <div class="icon__title">Todo</div>
+      <div class="icon__img">
+        <img src="./assets/svg/todo.svg" alt="todo">
+      </div>
+    </div>
+  </header>
+  <div class="main">
+    <h1>Add your tasks here to make a todo list</h1>
+    <button>Add Item</button>
+  </div>
+  <div class="popup">
+    <div class="popup__modal">
+      <div class="title">
+        <input type="text" placeholder="Title">
+        <input type="text" placeholder="Summary">
+      </div>
+      <div class="description">
+        <textarea name="description" id="desc" placeholder="Description"></textarea>
+      </div>
+      <div class="buttons">
+        <button>ADD</button>
+        <button>CLEAR</button>
+      </div>
+      <img src="./assets/svg/close.svg" alt="close">
+    </div>
+  </div>
+
+  <script src="./assets/scripts/app.js"></script>
+</body>
+</html>
